@@ -1,0 +1,260 @@
+body{
+    background-color: 
+  
+
+}
+.banner{
+    background-image: url(images/top.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    min-height: 100vh;
+     
+
+
+
+
+    
+}
+#sp{
+    display:flex;
+    justify-content: flex-end;
+    color: indianred;
+    margin-right:35px;
+}
+
+
+
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-size: cover;
+    
+
+
+
+    
+}
+
+
+
+
+
+.nav{
+    font-weight: 30px;
+    justify-content: flex-start;
+    position: fixed;
+    
+
+
+}
+.nav ul{
+    margin-right: 15rem;
+    margin-top: 2rem;
+    
+
+
+}
+.nav ul li {
+    font-size: medium;
+    display:inline;
+    justify-content: flex-end;
+    padding:  1rem;
+    text-decoration: none;
+    margin: 0 5px;
+    font-size: small;
+    margin-bottom: -15px;
+
+
+}
+.nav ul li a{
+    text-decoration: none;
+    
+    position: relative;
+    color:white;
+    margin-top: 15rem;
+    font-size: medium;
+    font-style: oblique;
+    
+}
+ul li a:hover{
+    color:indianred;
+    transition: 1s;
+    border-bottom: 4px;
+    border-style:solid;
+    border-color: indianred;
+    border-top: none;
+    border-left:none ;
+    border-right: none;
+}
+ a:hover{
+    color:white;
+}
+
+.container{
+    align-self: center;
+}
+.qote h5{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    font-weight: 5rem;
+    letter-spacing: 2px;
+    padding: 12px;
+    margin-top: 5rem;
+    color: azure;
+
+
+
+}
+.qote p{
+    display: flex;
+    justify-content: center;
+    margin-top: -3rem;
+    font-size: 30px;
+    font-weight: 5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.qote .cont{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+.qote .cont a{
+    text-decoration: none;
+    border: 1px solid indianred;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: indianred;
+}
+
+
+.img{
+margin-left: 30rem;
+width: 100vh;
+height: fit-content;
+}
+
+
+.ab h1{
+    justify-content: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-bottom: 12px;
+    display: flex;
+    margin-top: 5rem;
+    border-bottom: 15px;
+    border-color: indianred;
+}
+.ab h4{
+    text-align: center;
+    font-family: monospace;
+    letter-spacing: 0.2em;
+}
+
+ .container{
+    display: inline-block;
+    justify-content: space-around;
+    text-align: center;
+    border: 20px solid indianred;
+    background-color: indianred;
+    border-radius: 50px;
+    padding: 15px;
+    
+    
+    
+
+}
+.skills .container{
+    justify-content: center;
+    
+
+}
+.skills{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 80px;
+}
+.portfolio{
+
+    justify-content: center;
+
+
+}
+
+
+
+.box{
+    border: 50% solid indianred;
+    box-sizing: border-box;
+    border-radius: 50%;
+    width: 300px;
+    height: 50vh;
+    display: inline-block;
+    margin-left: 80px;
+    margin-top: 25px;
+
+
+
+    
+  
+    
+}
+.project{
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 25px;
+
+}
+.img{
+    padding: 5px;
+    margin: 5px;
+    width: auto;
+    height: auto;
+    display: inline;
+
+}
+.img img{
+    display: inline;
+    margin-left: 80px;
+    border: 1px solid indianred;
+}
+.h2{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    
+
+
+
+}
+
+
+.cn{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 38px;
+    font-family: monospace;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color:black;
+    color: indianred;
+    height: 3em;
+    width: auto;
+}
+footer a{
+    text-decoration: none;
+    margin-right: 15px;
+    font-size: 25px;
+    margin-top: -15px;
+
+}
+
+
